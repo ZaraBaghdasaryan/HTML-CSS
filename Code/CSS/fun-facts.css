@@ -1,0 +1,25 @@
+/*Background image*/
+.fun-facts-image {
+    background-image: url('../images/Fun-Facts/fun-facts-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Circles*/
+.counter-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border: 4px solid #fff;
+}
+
+@media (min-width: 576px) {
+    #fun-circles {
+        width: 100%;
+        max-width: 1024px;
+        flex-wrap: wrap; /* Move to the next row if not enough space */
+        flex-direction: row !important;
+        justify-content: space-around !important; /*Even space between objects */
+    }
+}

@@ -1,0 +1,26 @@
+/* Margin and Padding*/
+.p-4 {padding: 1.5rem !important;}
+.mt-2, .my-2 {margin-top: 0.5rem !important;}
+.mb-2, .my-2 {margin-bottom: 0.5rem !important;} /*.my-2 for using both top and bottom, both should be defined*/
+
+/*Classes Button*/
+.btn-lg, btn-group-lg > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+/*Text Formatting*/
+.text-uppercase {text-transform: uppercase !important;}
+.font-weight-bold {font-weight: 700 !important;}
+
+/* Classes' Card Direction*/
+@media (min-width: 576px) {
+    .flex-sm-row {
+
+        -ms-flex-direction: row !important; /*ms-flex* för Microsoft browsers*/
+        flex-direction: row !important;
+    }
+}
+

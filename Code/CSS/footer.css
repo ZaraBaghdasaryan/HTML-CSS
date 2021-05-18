@@ -1,0 +1,20 @@
+/*Adjusting the size of the logo*/
+footer img {width: 200px;}
+
+/*Adjusting the location of the astronaut user logo*/
+footer form i {right: 20px; top: 10px;} /*Goes in to footer > form > i*/
+
+/*Adjusting the size of the area for leaving messages*/
+footer form textarea {min-height: 5rem;}
+
+/*Adjusting the width of the first div within the first div (the address with text and school logo*/
+#footer form, footer > div > div {max-width: 550px;}
+
+/* Making the contact box automatically adjust in size to cover the entire screen when used in small phones*/
+footer form {width: -webkit-fill-available;}
+
+/* Adjusting the top footer form margin when screen size changes*/
+@media (min-width: 1024px) {
+    #footer form {margin-top: 0rem !important;}
+    footer > div > div {margin-right: 2rem;}
+} 

@@ -1,0 +1,7 @@
+
+/*Margin settings*/
+.pr-3, .px-3 {padding-right: 1rem !important;}
+.pl-3, .px-3 {padding-left: 1rem !important;}
+
+/*White circle within the pink circle*/
+.rounded-circle{border-radius: 50% !important;}

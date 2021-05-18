@@ -1,0 +1,13 @@
+/*Margin and Padding*/
+.pr-2, .px-2 {padding-right: 0.5rem !important;}
+.pl-2, .px-2 {padding-left: 0.5rem !important;}
+.m-2 {margin: 5rem !important;}
+
+/*Flex Wrapping*/
+.flex-wrap {flex-wrap: wrap !important;}
+
+/*Rounded Corners*/
+.rounded {border-radius: 0.25rem !important;}
+
+/*Width*/
+.w-100 {width: 100% !important;}
